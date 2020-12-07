@@ -1,0 +1,4 @@
+env/
+.idea/
+db.sqlite
+test_results.csv
