@@ -4,6 +4,8 @@
 создать виртуальное окрежение
 ```bash
 python3 -m venv env
+
+sourse env/bin/activation
 ```
 установить все нужные библиотеки
 ```bash

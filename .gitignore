@@ -1,4 +1,4 @@
 env/
 .idea/
 db.sqlite
-test_results.csv
+#test_results.csv
