@@ -189,9 +189,6 @@ class WindowSearchTestResult(QDialog):
         self.layout.setContentsMargins(0, 60, 0, 0)
 
     def operator_search(self):
-        """
-        Выпадающий список дней.
-        """
         for i in reversed(range(self.layout.count())):
             self.layout.itemAt(i).widget().setParent(None)
         name_operator = self.input_name.text()
